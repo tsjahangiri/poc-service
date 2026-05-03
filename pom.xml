@@ -30,7 +30,7 @@
         <dependency>
             <groupId>com.poc</groupId>
             <artifactId>poc-util</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 
@@ -45,6 +45,11 @@
                         <groupId>io.github.mavenplugins</groupId>
                         <artifactId>unleash-scm-provider-git</artifactId>
                         <version>3.3.0</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>com.poc.unleash</groupId>
+                        <artifactId>unleash-submodule-extension</artifactId>
+                        <version>1.0.0</version>
                     </dependency>
                 </dependencies>
                 <configuration>
